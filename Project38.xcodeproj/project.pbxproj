@@ -14,6 +14,10 @@
 		27826C101F44DB550023CE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27826C0E1F44DB550023CE2F /* LaunchScreen.storyboard */; };
 		27826C181F44DB6D0023CE2F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27826C171F44DB6D0023CE2F /* SwiftyJSON.swift */; };
 		27826C1A1F44DCE00023CE2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27826C191F44DCE00023CE2F /* DetailViewController.swift */; };
+		278FD9531F48E3CF00B1548C /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FD94F1F48E3CF00B1548C /* Author+CoreDataClass.swift */; };
+		278FD9541F48E3CF00B1548C /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FD9501F48E3CF00B1548C /* Author+CoreDataProperties.swift */; };
+		278FD9551F48E3CF00B1548C /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FD9511F48E3CF00B1548C /* Commit+CoreDataClass.swift */; };
+		278FD9561F48E3CF00B1548C /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FD9521F48E3CF00B1548C /* Commit+CoreDataProperties.swift */; };
 		27B426B51F4613B600CF29E6 /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B426B31F4613B600CF29E6 /* Project38.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,10 @@
 		27826C111F44DB550023CE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27826C171F44DB6D0023CE2F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		27826C191F44DCE00023CE2F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		278FD94F1F48E3CF00B1548C /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		278FD9501F48E3CF00B1548C /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		278FD9511F48E3CF00B1548C /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		278FD9521F48E3CF00B1548C /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		27B426B41F4613B600CF29E6 /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +68,10 @@
 		27826C041F44DB550023CE2F /* Project38 */ = {
 			isa = PBXGroup;
 			children = (
+				278FD94F1F48E3CF00B1548C /* Author+CoreDataClass.swift */,
+				278FD9501F48E3CF00B1548C /* Author+CoreDataProperties.swift */,
+				278FD9511F48E3CF00B1548C /* Commit+CoreDataClass.swift */,
+				278FD9521F48E3CF00B1548C /* Commit+CoreDataProperties.swift */,
 				27826C051F44DB550023CE2F /* AppDelegate.swift */,
 				27826C071F44DB550023CE2F /* ViewController.swift */,
 				27826C191F44DCE00023CE2F /* DetailViewController.swift */,
@@ -146,6 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278FD9541F48E3CF00B1548C /* Author+CoreDataProperties.swift in Sources */,
+				278FD9561F48E3CF00B1548C /* Commit+CoreDataProperties.swift in Sources */,
+				278FD9531F48E3CF00B1548C /* Author+CoreDataClass.swift in Sources */,
+				278FD9551F48E3CF00B1548C /* Commit+CoreDataClass.swift in Sources */,
 				27826C181F44DB6D0023CE2F /* SwiftyJSON.swift in Sources */,
 				27B426B51F4613B600CF29E6 /* Project38.xcdatamodeld in Sources */,
 				27826C081F44DB550023CE2F /* ViewController.swift in Sources */,
