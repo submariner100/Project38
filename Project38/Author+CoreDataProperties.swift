@@ -2,7 +2,7 @@
 //  Author+CoreDataProperties.swift
 //  Project38
 //
-//  Created by Macbook on 19/08/2017.
+//  Created by Macbook on 22/08/2017.
 //  Copyright © 2017 Chappy-App. All rights reserved.
 //
 
@@ -19,6 +19,7 @@ extension Author {
     @NSManaged public var email: String
     @NSManaged public var name: String
     @NSManaged public var commits: NSSet
+	
 
 }
 
